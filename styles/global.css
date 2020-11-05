@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    font-family: 'Itim', cursive;
+}
+
+body{
+    background-color: rgb(241, 230, 128);
+}
+
+/* Home  */
+
+.cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+
+.hom{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hom span{
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#h11{
+    color: black;
+    border: 5px solid rgb(0, 247, 255);
+    padding: 30px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a{
+    margin: 50px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav a:hover{
+    transform: scale(1.2);
+    background-color: darkorchid;
+}
+
+
+
+/* About */
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.ab{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ab span{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#h12{
+    color: black;
+    border: 5px solid rgb(15, 30, 230);
+    padding: 30px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+}
+
+.nav2 a{
+    margin: 50px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav a:hover{
+    transform: scale(1.2);
+    background-color: darkorchid;
+}
+
+
+
+/* Services */
+
+
+.cont3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.ser{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ser span{
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#h13{
+    color: black;
+    border: 5px solid rgb(255, 0, 21);
+    padding: 30px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.nav3{
+    display: flex;
+    justify-content: center;
+}
+
+.nav3 a{
+    margin: 50px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav3 a:hover{
+    transform: scale(1.2);
+    background-color: darkorchid;
+}
